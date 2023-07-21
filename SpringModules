@@ -1,0 +1,48 @@
+
+What is Spring Ioc Container?
+It is pre-defined module given by Spring for doing below things::
+Create object
+Inject object
+Hold object in memory
+
+
+We need to give beans information and configuration to Container
+
+ApplicationContext which extends BeanFactory is an interface and represent our container.
+
+ClassPathXmlApplicationContext
+
+AnnotationConfixApplicationContext
+
+FileSystemApplicationXMLApplicationContext
+
+
+IoC Container:: creates objects and injects dependencies at runtime automatically.
+
+
+Dependency Injection can be done in two ways::
+Setter Injection
+Constructor Injection
+
+Configuration File:: Where we need to declare its beans and its dependencies.
+
+DataType Dependencies(Primitive)
+Byte,short, char, int , long
+
+2)Collection type:: List,Set,Property,Map
+
+3)Reference type::object
+
+
+Property Injection using p schema and using value attribute::
+<bean clas="com. " name:"student1" p:studenTid="2434" p:studentName="Aartsingh" p:studentAddress="Delhi"/>
+
+
+
+
+
+
+
+
+
+
