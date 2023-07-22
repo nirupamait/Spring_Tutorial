@@ -37,6 +37,48 @@ Byte,short, char, int , long
 Property Injection using p schema and using value attribute::
 <bean clas="com. " name:"student1" p:studenTid="2434" p:studentName="Aartsingh" p:studentAddress="Delhi"/>
 
+How to inject collection types:: List, Set, Map
+<bean>
+  <property name="">
+  <set>
+      <value>10</value>
+      <value>50</value>
+      <value>10</value>
+ </set>
+</property>
+</bean>
+
+
+<bean>
+  <property name="">
+  <map>
+      <entry key="java" value="2month"/>
+      <entry key="python" value="3month"/>
+ </map>
+</property>
+</bean>
+
+<bean>
+  <property name="">
+  <props>
+      <prop key="lang">Eng</prop>
+      <prop key="channel">Code2</prop>
+ </props>
+</property>
+</bean>
+
+Constructor Injection:: Spring supports creating objects using parametrized constructor.
+<constructor-args>
+ <value>b</value>
+</constructor-args>
+
+<constructor-args>
+ <ref bean="">
+</constructor-args>
+
+
+
+
 
 
 
